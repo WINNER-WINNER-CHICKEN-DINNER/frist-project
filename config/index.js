@@ -16,6 +16,8 @@ module.exports = {
     host: '0.0.0.0', // can be overwritten by process.env.HOST
     port: 2018, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: true,
+	// 部署到服务器 出现 “Invalid Host header”
+	disableHostCheck: true,
     errorOverlay: true,
     notifyOnErrors: true,
     poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
