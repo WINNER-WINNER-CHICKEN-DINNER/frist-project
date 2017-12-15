@@ -10,10 +10,10 @@ out $PWD
 ls -la
 
 out "check npm version"
-cnpm --version
+npm --version
 
 out "install packages"
-cnpm install
+npm install
 
 out "build for $BIMSERVER_ENVIRONMENT"
-cnpm run dev
+npm run dev
