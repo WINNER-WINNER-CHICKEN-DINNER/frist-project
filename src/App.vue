@@ -30,7 +30,7 @@
     mounted () {
       setInterval(() => {
         this.position--
-        if (this.position < -800) {
+        if (this.position < -400) {
           this.position = -1
         }
       }, 100)
